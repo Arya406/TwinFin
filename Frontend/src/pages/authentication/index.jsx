@@ -97,7 +97,7 @@ const Authentication = () => {
               <SecurityBadges />
               
               {/* Social Proof */}
-              <SocialProof />
+              
               
               {/* Feature Highlights */}
               <div className="bg-surface rounded-2xl shadow-elevation-2 p-6 border border-border">

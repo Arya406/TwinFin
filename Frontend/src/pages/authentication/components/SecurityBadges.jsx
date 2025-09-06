@@ -52,20 +52,6 @@ const SecurityBadges = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center justify-center space-x-4 pt-4 border-t border-border">
-        <div className="flex items-center space-x-1">
-          <Icon name="Users" size={16} color="var(--color-primary)" />
-          <span className="text-xs text-text-secondary">10K+ Users</span>
-        </div>
-        <div className="flex items-center space-x-1">
-          <Icon name="Globe" size={16} color="var(--color-primary)" />
-          <span className="text-xs text-text-secondary">50+ Countries</span>
-        </div>
-        <div className="flex items-center space-x-1">
-          <Icon name="Star" size={16} color="var(--color-primary)" />
-          <span className="text-xs text-text-secondary">4.8 Rating</span>
-        </div>
-      </div>
     </div>
   );
 };
