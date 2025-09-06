@@ -16,7 +16,7 @@ const Routes = () => {
       <ScrollToTop />
       <RouterRoutes>
         {/* Define your route here */}
-        <Route path="/" element={<Authentication />} />
+        <Route path="/" element={<LandingPage />} />
         <Route path="/authentication" element={<Authentication />} />
         <Route path="/chat-interface" element={<ChatInterface />} />
         <Route path="/landing-page" element={<LandingPage />} />

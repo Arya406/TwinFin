@@ -8,12 +8,7 @@ const NavigationBar = ({ user = null, notificationCount = 0 }) => {
   const location = useLocation();
 
   const navigationItems = [
-    {
-      label: 'Home',
-      path: '/landing-page',
-      icon: 'Home',
-      protected: false
-    },
+   
     {
       label: 'Upload',
       path: '/photo-upload',
@@ -34,7 +29,7 @@ const NavigationBar = ({ user = null, notificationCount = 0 }) => {
       hasNotification: notificationCount > 0
     },
     {
-      label: 'Profile',
+      label: 'Get Started',
       path: '/authentication',
       icon: user ? 'User' : 'LogIn',
       protected: false
@@ -148,10 +143,10 @@ const NavigationBar = ({ user = null, notificationCount = 0 }) => {
                 className="touch-target"
                 aria-label="Toggle mobile menu"
               >
-                <Icon 
-                  name={isMobileMenuOpen ? 'X' : 'Menu'} 
-                  size={24} 
-                  color="currentColor" 
+                <Icon
+                  name={isMobileMenuOpen ? 'X' : 'Menu'}
+                  size={24}
+                  color="currentColor"
                 />
               </Button>
             </div>
@@ -162,7 +157,7 @@ const NavigationBar = ({ user = null, notificationCount = 0 }) => {
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-1100 md:hidden">
           {/* Backdrop */}
-          <div 
+          <div
             className="absolute inset-0 bg-black/50 backdrop-blur-sm"
             onClick={closeMobileMenu}
           />

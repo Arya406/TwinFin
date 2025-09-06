@@ -83,26 +83,7 @@ const CallToActionSection = ({ onGetStarted }) => {
                 </div>
 
                 {/* Stats */}
-                <div className="border-t border-border pt-8">
-                  <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-                    <div className="text-center">
-                      <div className="text-2xl sm:text-3xl font-bold text-primary mb-1">10M+</div>
-                      <p className="text-sm text-text-secondary">Photos Processed</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-2xl sm:text-3xl font-bold text-secondary mb-1">500K+</div>
-                      <p className="text-sm text-text-secondary">Active Users</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-2xl sm:text-3xl font-bold text-accent mb-1">195</div>
-                      <p className="text-sm text-text-secondary">Countries</p>
-                    </div>
-                    <div className="text-center">
-                      <div className="text-2xl sm:text-3xl font-bold text-success mb-1">99.9%</div>
-                      <p className="text-sm text-text-secondary">Satisfaction</p>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
